@@ -14,6 +14,16 @@
     justify-content: flex-start;
 }
 
+.About, .Services{
+    background: #010301;
+}
+
+.all-heading{
+    display: flex;
+    font-size: 60px;
+    color: #ef6e12;
+}
+
 #hero {
     text-align: left;
     color: #fff;
