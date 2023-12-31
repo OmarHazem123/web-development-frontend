@@ -26,7 +26,21 @@ body {
 header {
   background-color: #0c2b4a; /* Deep Blue */
   color: #ffd700; /* Gold */
+  text-align: center;
   padding: 20px 0;
+}
+
+/* Logo Styles */
+.logo {
+  font-size: 2em; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #ffd700; /* Gold color */
+  text-decoration: none; /* Remove underline for the link */
+  display: inline-block; /* Ensure the logo behaves as a block element */
+}
+
+.logo:hover {
+  color: #fff; /* White - Hover Color */
 }
 
 nav {
@@ -101,6 +115,17 @@ button {
 button:hover {
   background-color: #001f3f;
 }
+
+.booking1{
+  background-color: #0c2b4a;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 
 /* Footer Styles */
 footer {
